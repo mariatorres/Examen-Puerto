@@ -48,6 +48,8 @@ public class DiseñoContenedores extends JFrame {
     private JRadioButton a1Hub;
     private JRadioButton a2Hub;
     private JRadioButton a3Hub;
+    private JButton buttonEx;
+    private JTextField textFieldEx;
     private JButton stringButton;
     private JTextField elegirHubTextField;
 
@@ -229,6 +231,16 @@ public class DiseñoContenedores extends JFrame {
             }
         });
 
+
+        buttonEx.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if(e.getSource() == buttonEx){
+                    Puerto p = new Puerto();
+
+                }
+            }
+        });
 
 
 
